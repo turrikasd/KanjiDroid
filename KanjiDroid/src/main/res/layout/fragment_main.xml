@@ -35,6 +35,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Kana"
+        android:importantForAccessibility="yes"
         android:id="@+id/kana"
         android:layout_above="@+id/userEntry"
         android:layout_centerHorizontal="true"
