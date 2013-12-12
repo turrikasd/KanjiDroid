@@ -19,7 +19,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -39,8 +40,8 @@
         android:textIsSelectable="false"
         android:inputType="none"
         android:textSize="32dp"
-        android:layout_below="@+id/tvMessageUser"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignBottom="@+id/kana"
+        android:layout_toRightOf="@+id/kana" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,8 +51,9 @@
         android:importantForAccessibility="yes"
         android:id="@+id/kana"
         android:textSize="64dp"
-        android:layout_below="@+id/adTopAdd"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
